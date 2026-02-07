@@ -1,0 +1,5 @@
+```txt
+numpy
+pennylane
+searoute
+plotly
