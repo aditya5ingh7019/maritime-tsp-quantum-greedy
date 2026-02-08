@@ -34,8 +34,14 @@ when embedded into greedy routing heuristics under NISQ constraints.
 - Explicit noise injection via depolarizing channels
 - Early stopping in QAOA optimization
 
+## Results
+All experimental outputs (CSV tables and figures) are available
+in the `results/` directory.
+
 ## Reproducing Paper Results
 Example command for the hybrid QAOA-greedy run (3 layers, 150 optimization steps, starting from port index 0):
 
 ```bash
 python maritime_tsp_quantum_greedy.py --start_idx 0 --layers 3 --steps 150
+
+
