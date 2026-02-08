@@ -13,17 +13,6 @@ This work **does not claim quantum advantage**.
 The goal is to empirically evaluate how shallow QAOA circuits behave
 when embedded into greedy routing heuristics under NISQ constraints.
 
-## Installation
-```bash
-git clone https://github.com/adityaSingh709/maritime-tsp-quantum-greedy.git
-cd maritime-tsp-quantum-greedy
-
-# Recommended: use a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
-
 ## Problem Description
 - Traveling Salesman Problem (TSP) over real maritime routes
 - Distances computed using the `searoute` library
